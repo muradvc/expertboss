@@ -1,0 +1,31 @@
+nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  font-weight: bold;
+  font-size: 15px;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: rgb(255, 132, 0);
+  background-color: black;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+nav ul li a:hover {
+  background-color: rgb(255, 132, 0);
+  color: black;
+  transition: 0.2s;
+}
+header{
+  width: 70%;
+  height: 100%;
+}
